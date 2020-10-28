@@ -1,0 +1,41 @@
+    /* MODAL */
+.text-danger{
+    font-size: 14px;
+}
+  /* CAROUSEL */
+#carousel-img{
+    height: 500px;
+    width: 100%;
+}
+
+#carousel-caption1 {
+    color: black;
+    top: 20vh;
+}
+
+#carousel-caption2 {
+    top: 20vh;
+}
+
+    /* SECTION NEWS */
+section {
+    padding: 5rem 0;
+}
+.card-header:hover {
+    background-color: #dc3545;
+    color: white;
+     transition: 0.3s ease-in;
+}
+.card:hover {
+    border: 1px solid;
+    box-shadow: 1px 5px gray;
+    outline: none;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) { 
+    #carousel-img{
+        height: 300px;
+    }
+ }
